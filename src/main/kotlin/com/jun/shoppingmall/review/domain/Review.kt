@@ -21,9 +21,8 @@ class Review : BaseEntity() {
     @Column(nullable = false)
     var goodsNo: Int?=0
 
-    @Lob
     @Comment("내용")
-    @Column(nullable = true)
+    @Column(nullable = true, columnDefinition = "TEXT")
     var contents: String?=null
 
     @Comment("이미지 주소")
