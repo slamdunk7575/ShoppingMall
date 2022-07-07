@@ -95,10 +95,10 @@ class ReviewServiceTest {
     @Test
     fun `리뷰 삭제 테스트`() {
         // given
-        val deleteNo = 1L
+        val deleteNo = 2L
 
         // when
-        reviewServiceImpl.run { deleteReview(1) }
+        reviewServiceImpl.run { deleteReview(deleteNo) }
 
         // then
         assertThrows(NoSuchElementException::class.java) {
