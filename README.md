@@ -24,4 +24,4 @@ tail -f nohup.out
 
 ## Test
 H2 DB(Embedded 모드)를 사용하여 Service 통합 테스트를 하였습니다.
-TestRestTemplate을 활용하여 Controller API 테스트를 하였습니다.
+<br>TestRestTemplate을 활용하여 Controller API 테스트를 하였습니다.
