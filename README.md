@@ -15,13 +15,9 @@
 $ gradle bootjar
 ~~~
 
-build/libs 경로에 가보면 모든 의존성 라이브러리가 포함된 jar 파일을 확인 할 수 있습니다.
-
+build/libs 경로에 보면 모든 의존성 라이브러리가 포함된 jar 파일을 확인 할 수 있습니다.
+아래 명령어로 Application 을 실행할 수 있습니다.
 ~~~
 nohup java -jar ~~~.jar &
 tail -f nohup.out
 ~~~
-
-## Test
-H2 DB(Embedded 모드)를 사용하여 Service 통합 테스트를 하였습니다.
-<br>TestRestTemplate을 활용하여 Controller API 테스트를 하였습니다.
